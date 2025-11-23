@@ -1,0 +1,17 @@
+torch==2.1.0
+torchvision==0.16.0
+timm==0.9.7
+
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+
+opencv-python
+pillow
+
+tqdm
+tensorboard==2.14.0
+protobuf==3.20.*
+optuna

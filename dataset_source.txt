@@ -1,0 +1,2 @@
+From Mendeley Data: https://data.mendeley.com/datasets/s9bfhswzjb/1
+From Kaggle (Mirror Dataset Link): https://www.kaggle.com/datasets/abhinav099802/eye-disease-image-dataset/data

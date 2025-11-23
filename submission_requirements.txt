@@ -1,0 +1,42 @@
+This checklist provides an overview of all files included in the project submission,
+along with short descriptions to help reviewers understand the structure.
+
+------------------------------------------------------------
+Project Folder Contents
+------------------------------------------------------------
+
+1. **EfficientNetB7/**
+   - `EfficientNetB7_Notebook.ipynb`
+       → Notebook used for training, validation, and evaluation  
+   - `best_effnetb7_model.pth`
+       → Saved model weights for the best-performing EfficientNetB7 model
+
+2. **MobileNetV3_DenseNet121/**
+   - `MobileNetV3_DenseNet121_Notebook.ipynb`
+       → Training and evaluation notebook for both models
+   - `best_mobilenetv3_model.pth`
+       → Trained MobileNetV3 model weights
+   - `best_densenet121_model.pth`
+       → Trained DenseNet121 model weights
+
+3. **ResNet50/**
+   - `val_misclassified_samples/`
+       → Misclassified validation images (sorted by true/predicted class)
+   - `test_misclassified_samples/`
+       → Misclassified test images (sorted similarly)
+   - *Note:* No model file included for ResNet50 in this submission
+
+4. **Report/**
+   - `2290_2289.pdf`
+       → Final written report containing methodology, results, discussion, and conclusion
+
+------------------------------------------------------------
+Additional Notes
+------------------------------------------------------------
+
+- All notebooks contain preprocessing steps, training pipelines,
+  and evaluation procedures — no extra setup steps required.
+- Model files are included only for architectures used in final evaluation.
+- Dataset is not included due to size; it can be accessed from:
+    • Mendeley: Eye Diseases Dataset https://data.mendeley.com/datasets/s9bfhswzjb/1
+    • Kaggle alternative source https://www.kaggle.com/datasets/abhinav099802/eye-disease-image-dataset
