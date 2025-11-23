@@ -69,8 +69,6 @@ Training and validation for each model is organized in their respective notebook
 |-----------------|---------|-----------|--------|----------|
 | EfficientNetB7  | 87.88%  | 88.14     | 87.88  | 87.97    |
 | ResNet50        | 85.05%  | 85.42     | 85.05  | 85.16    |
-| MobileNetV3     | Moderate performance | — | — | — |
-| DenseNet121     | Competitive but below top results | — | — | — |
 
 ---
 
